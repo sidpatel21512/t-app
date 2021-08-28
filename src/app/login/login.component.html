@@ -1,0 +1,5 @@
+<input type="text" (change)="onChange($event)">
+<div>
+  <my-modal *ngIf="showIt" (close)="closeModal()" (response)="onResponse($event)"></my-modal>
+</div>
+<br><br>
